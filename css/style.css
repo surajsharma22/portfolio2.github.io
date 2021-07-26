@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Baloo+2:wght@700&family=Darker+Grotesque:wght@300&family=Poppins&family=Shadows+Into+Light+Two&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+}
+.heading{
+  cursor: pointer;
+  margin-right: auto;
+  font-family: 'Alata', sans-serif;
+}
+header h2 {
+  color: white;
+  text-transform: uppercase;
+}
+header nav ul {
+  display: inline;
+  margin-right: 12px; 
+}
+header nav ul li {
+  display: inline;
+  list-style: none;
+  margin-right: 12px;
+  
+}
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+.contact{
+  text-decoration: none;
+  padding: 9px 25px;
+  background-color: transparent;
+  border-radius: 50px;
+  border: 2px solid white;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover{
+  background-color: rgb(0, 107, 169);
+  transition: all 0.3s ease 0s;
+}
+.container .circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  background: linear-gradient(rgb(255, 174, 188),purple);
+  position: absolute;
+  top: 23vh;
+  right: 16vw;
+}
+.circle img {
+  position: relative;
+  height: 450px;
+  left: -10px;
+  bottom: 50px;
+}
+.introduction {
+  color: white;
+}
+.introduction {
+  margin-top: 15vh;
+  margin-left: 10vw;
+}
+.subheading{
+  font-size: 1.5em;
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+footer .social a{
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,237 @@
+@media only screen and (min-width: 940px) and (max-width: 1100px) {
+  .circle {
+    position: absolute;
+    left: 52vw;
+  }
+  .introduction {
+    margin-top: 18vh;
+  }
+  .bottom {
+    font-size: 1.2em;
+    position: relative;
+    top: 55vh;
+  }
+  .logo {
+    margin: 0;
+    padding: 0 10px;
+  }
+  .social {
+    left: 46%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 510px) {
+  .container .circle {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 15vh;
+  }
+  .circle img {
+    height: 300px;
+  }
+  .introduction {
+    margin-top: 70%;
+  }
+  .explore {
+    position: absolute;
+    bottom: 14vh;
+    left: 35%;
+  }
+  .social {
+    position: absolute;
+    bottom: 6vh;
+    left: 34%;
+  }
+}
+@media only screen and (min-width: 510px) and (max-width: 512px) {
+  .container .circle {
+    position: absolute;
+    top: 15vh;
+    right: 55px;
+  }
+  .explore {
+    position: absolute;
+    bottom: 14vh;
+    left: 35%;
+  }
+  .social {
+    position: absolute;
+    bottom: 6vh;
+    left: 34%;
+  }
+  .introduction {
+    margin-top: 95%;
+  }
+}
+@media only screen and (min-width: 680px) and (max-width: 940px) {
+  .introduction {
+    margin-top: 56%;
+  }
+  .container .circle {
+    position: absolute;
+    top: 15vh;
+    right: 25%;
+  }
+  .explore {
+    position: absolute;
+    bottom: 14vh;
+    left: 40%;
+  }
+  .social {
+    position: absolute;
+    bottom: 6vh;
+    left: 39%;
+  }
+}
+@media only screen and (min-width: 518px) and (max-width: 690px) {
+  .introduction {
+    margin-top: 50vh;
+  }
+  .container .circle {
+    position: absolute;
+    top: 15vh;
+    left: 12%;
+  }
+  .explore {
+    position: absolute;
+    bottom: 14vh;
+    left: 40%;
+  }
+  .social {
+    position: absolute;
+    bottom: 6vh;
+    left: 39%;
+  }
+}
+@media only screen and (min-width: 650px) and (max-width: 700px) {
+  .introduction {
+    margin-top: 50vh;
+  }
+  .container .circle {
+    position: absolute;
+    top: 15vh;
+    left: 12%;
+  }
+  .explore {
+    position: absolute;
+    bottom: 14vh;
+    left: 40%;
+  }
+  .social {
+    position: absolute;
+    bottom: 6vh;
+    left: 39%;
+  }
+}
+@media only screen and (min-width: 460px) and (max-width: 480px) {
+  .introduction {
+    margin: 0;
+    margin-top: 40vh;
+
+    text-align: center;
+  }
+  .container .circle {
+    position: absolute;
+    top: 15vh;
+    left: 20%;
+    width: 250px;
+    height: 250px;
+  }
+  .circle img {
+    height: 300px;
+  }
+  .explore {
+    position: absolute;
+    bottom: 14vh;
+    left: 35%;
+  }
+  .social {
+    position: absolute;
+    bottom: 6vh;
+    left: 34%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 3%;
+  }
+  header nav ul li {
+    margin-left: 1%;
+    margin-right: 0%;
+  }
+  .introduction {
+    margin: 0;
+    margin-top: 40vh;
+    text-align: center;
+  }
+  .container .circle {
+    position: absolute;
+    top: 15vh;
+    width: 250px;
+    height: 250px;
+  }
+  .circle img {
+    height: 300px;
+  }
+  .explore {
+    position: absolute;
+    bottom: 14vh;
+    left: 35%;
+  }
+  .social {
+    position: absolute;
+    bottom: 6vh;
+    left: 34%;
+  }
+}
+@media only screen and (max-width: 460px) {
+  body{
+    height: auto;
+  }
+  .nav_links {
+    display: none;
+  }
+  header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 3%;
+  }
+  header nav ul li {
+    margin-left: 1%;
+    margin-right: 0%;
+  }
+  .introduction {
+    font-size: smaller;
+    margin: 0;
+    margin-top: 45vh;
+    text-align: center;
+  }
+  .container .circle {
+    position: absolute;
+    top: 18vh;
+    width: 250px;
+    height: 250px;
+  }
+  .circle img {
+    height: 300px;
+  }
+  .explore {
+    position: absolute;
+    bottom: -10vh;
+    left: 30%;
+  }
+  .social {
+    position: absolute;
+    bottom: -20vh;
+    left: 28.5%;
+    margin-top : 90px;
+    padding-bottom: 10px;
+  }
+  .circle img {
+    left: -13.8px;
+  }
+}
